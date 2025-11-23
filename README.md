@@ -1,4 +1,4 @@
-# Portfolio Website
+Portfolio Website
 
 This repository hosts my portfolio:  
 https://kastashenkova.github.io
