@@ -9,7 +9,6 @@
             padding: 0;
             box-sizing: border-box;
         }
-
 ```
     body {
         font-family: 'Georgia', 'Times New Roman', serif;
@@ -220,7 +219,6 @@
     }
 </style>
 ```
-
 </head>
 <body>
     <div class="container">
