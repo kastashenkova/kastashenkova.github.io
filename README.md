@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kateryna Astashenkova - Portfolio</title>
+    <title>Kateryna Astashenkova</title>
     <style> 
         * {
             margin: 0;
@@ -228,7 +226,7 @@
     <div class="container">
         <header>
             <h1>Kateryna Astashenkova</h1>
-            <p>Computer Science Student at NaUKMA</p>
+            <p>Software Engineer Student at NaUKMA 2024-2028</p>
         </header>
 
 ```
