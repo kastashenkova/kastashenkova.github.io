@@ -226,7 +226,7 @@
     <div class="container">
         <header>
             <h1>Kateryna Astashenkova</h1>
-            <p>Software Engineer Student at NaUKMA 2024-2028</p>
+            <p>Software Engineering Student at NaUKMA 2024-2028</p>
         </header>
 
 ```
@@ -260,7 +260,7 @@
                     <span class="tech-badge">BFS/DFS</span>
                 </div>
                 
-                <a href="https://github.com/kastashenkova" class="github-link">VIEW PROJECT →</a>
+                <a href="https://github.com/kastashenkova/KarelApp" class="github-link">VIEW PROJECT →</a>
             </div>
         </div>
 
@@ -289,7 +289,7 @@
                     <span class="tech-badge">String Processing</span>
                 </div>
                 
-                <a href="https://github.com/kastashenkova" class="github-link">VIEW PROJECT →</a>
+                <a href="https://github.com/kastashenkova/Dictionary" class="github-link">VIEW PROJECT →</a>
             </div>
         </div>
 
@@ -318,7 +318,7 @@
                     <span class="tech-badge">Heuristics</span>
                 </div>
                 
-                <a href="https://github.com/kastashenkova" class="github-link">VIEW PROJECT →</a>
+                <a href="https://github.com/kastashenkova/Puzzle" class="github-link">VIEW PROJECT →</a>
             </div>
         </div>
 
@@ -347,7 +347,7 @@
                     <span class="tech-badge">Event Handling</span>
                 </div>
                 
-                <a href="https://github.com/kastashenkova" class="github-link">VIEW PROJECT →</a>
+                <a href="https://github.com/kastashenkova/Embroidery" class="github-link">VIEW PROJECT →</a>
             </div>
         </div>
 
@@ -376,7 +376,7 @@
                     <span class="tech-badge">Collision Detection</span>
                 </div>
                 
-                <a href="https://github.com/kastashenkova" class="github-link">VIEW PROJECT →</a>
+                <a href="https://github.com/kastashenkova/SimsGame" class="github-link">VIEW PROJECT →</a>
             </div>
         </div>
     </div>
