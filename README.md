@@ -1,6 +1,199 @@
-Portfolio Website
+## Portfolio
 
-This repository hosts my portfolio:  
-https://kastashenkova.github.io
+This repository hosts my portfolio website:  
+**https://kastashenkova.github.io**
 
-All project descriptions and details are available directly on the website.
+```html
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Катерина Асташенкова</title>
+    <style> 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Times New Roman', serif;
+            line-height: 1.8;
+            color: #2c2c2c;
+            background: #f8f8f8;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+            border-bottom: 3px solid #2c2c2c;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #1a1a1a;
+            font-weight: 400;
+            letter-spacing: 1px;
+        }
+        header p {
+            font-size: 1.1em;
+            color: #555;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        .academic-note {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #fafafa;
+            border-left: 4px solid #2c2c2c;
+            font-size: 0.95em;
+            color: #444;
+            line-height: 1.7;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+            padding: 0 20px;
+        }
+        .project-card {
+            background: white;
+            border: 2px solid #e0e0e0;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .project-card:hover {
+            border-color: #2c2c2c;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .project-header {
+            background: #2c2c2c;
+            color: white;
+            padding: 25px;
+            border-bottom: 3px solid #1a1a1a;
+        }
+        .project-header h2 {
+            font-size: 1.6em;
+            margin-bottom: 12px;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+        }
+        .project-header .tag {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            padding: 4px 12px;
+            border: 1px solid rgba(255,255,255,0.3);
+            font-size: 0.8em;
+            margin: 5px 5px 0 0;
+        }
+        .project-body {
+            padding: 25px;
+        }
+        .project-body p {
+            color: #444;
+            margin-bottom: 15px;
+            font-size: 0.95em;
+        }
+        .project-body h3 {
+            color: #2c2c2c;
+            margin-top: 20px;
+            margin-bottom: 12px;
+            font-size: 1.05em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 5px;
+        }
+        .project-body ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        .project-body li {
+            margin: 10px 0;
+            color: #555;
+            font-size: 0.9em;
+        }
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #e0e0e0;
+        }
+        .tech-badge {
+            background: white;
+            padding: 6px 14px;
+            font-size: 0.8em;
+            color: #2c2c2c;
+            border: 1px solid #d0d0d0;
+        }
+        .github-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: white;
+            color: #2c2c2c;
+            text-decoration: none;
+            border: 2px solid #2c2c2c;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+        .github-link:hover {
+            background: #2c2c2c;
+            color: white;
+        }
+        footer {
+            text-align: center;
+            padding: 50px 20px 30px;
+            color: #666;
+            margin-top: 60px;
+            border-top: 3px solid #2c2c2c;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #2c2c2c;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+        footer a:hover {
+            color: #666;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <header>
+        <h1>Kateryna Astashenkova</h1>
+        <p>Software Engineering Student at NaUKMA 2024–2028</p>
+    </header>
+
+    <div class="academic-note">
+        Представлені нижче проєкти є навчальними роботами...
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Kateryna Astashenkova | 
+            <a href="https://github.com/kastashenkova">GitHub</a> |
+            <a href="mailto:astashenkova.katya@gmail.com">Email</a>
+        </p>
+    </footer>
+
+</div>
+</body>
+</html>
