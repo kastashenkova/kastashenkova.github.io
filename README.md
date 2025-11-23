@@ -348,7 +348,7 @@
         </div>
 
         <footer>
-            <p>&copy; 2024 Kateryna Astashenkova | 
+            <p>&copy; 2025 Kateryna Astashenkova | 
                 <a href="https://github.com/kastashenkova" target="_blank">GitHub</a> |
                 <a href="mailto:katerynastashenkova@gmail.com">Email</a>
             </p>
