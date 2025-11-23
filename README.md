@@ -350,7 +350,7 @@
         <footer>
             <p>&copy; 2025 Kateryna Astashenkova | 
                 <a href="https://github.com/kastashenkova" target="_blank">GitHub</a> |
-                <a href="mailto:katerynastashenkova@gmail.com">Email</a>
+                <a href="mailto:astashenkova.katya@gmail.com">Email</a>
             </p>
         </footer>
     </div>
